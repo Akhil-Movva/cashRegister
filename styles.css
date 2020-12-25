@@ -1,0 +1,33 @@
+body{
+    max-width:600px;
+    margin: 0 auto;
+}
+#heading{
+    width: 60%;
+    margin: 4rem auto 7rem;
+ }
+#btn{
+   display: block;
+   margin: 0 auto;     
+}
+#button-container{
+    width: 60%;
+    margin-bottom: 30px;
+    
+}
+p{
+    margin-bottom: 15px;
+}
+
+#bill-amount, #cash-amount,#balance-amount{
+    margin-bottom: 15px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin: 3rem 2rem 1rem 6rem;
+}
+
