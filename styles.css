@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+:root{
+    --red: #BB2528;
+    --green: #064E3B;
+    
+}
+html{
+    
+    font-weight: 900;
+    color: var(--red);
+    background-color: var(--green);
+    font-family: 'Playfair Display', serif;
+
+    
+}
+
 body{
     max-width:600px;
     margin: 0 auto;
+    
+    
 }
 #heading{
     width: 60%;
-    margin: 7rem auto 4rem;
+    margin: 7rem auto 2.5rem;
  }
 #btn{
    display: block;
-   margin: 0 auto;     
+   margin: 0 auto;
+   color: var(--red);
+   background-color: var(--green);
+   border: 3px solid var(--red);
+   cursor: pointer;
+   font-family: 'Playfair Display', serif;
+   font-weight: 900;
 }
 #button-container{
     width: 60%;
@@ -24,11 +48,19 @@ p{
 }
 
 table,th,td{
-    border: 1px solid black;
+    border: 3px solid var(--red);
     border-collapse: collapse;
 }
 table{
     margin: 2rem 2rem 1rem 6rem;
+    border: var(--red);
     
+}
+
+#bill, #cash{
+    border: 3px solid var(--red);
+    color: var(--red);
+    background-color: var(--green);
+    font-weight: 900;
 }
 
