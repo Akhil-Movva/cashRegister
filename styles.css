@@ -26,7 +26,7 @@ body{
  }
 #btn{
    display: block;
-   margin: 0 auto;
+   margin: 0 0 0 11rem;
    color: var(--red);
    background-color: var(--green);
    border: 3px solid var(--red);
@@ -52,7 +52,7 @@ table,th,td{
     border-collapse: collapse;
 }
 table{
-    margin: 2rem 2rem 1rem 6rem;
+    margin: 2rem 2rem 1rem 8rem;
     border: var(--red);
     
 }
